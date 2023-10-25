@@ -1,0 +1,103 @@
+{
+  "totalIncome": {
+    "income": "150000"
+  },
+  "totalExpense": [
+    {
+      "date": "2023-01-05",
+      "Expense": "Burger king",
+      "Amount": "550",
+      "id": 1
+    },
+    {
+      "date": "2023-08-03",
+      "Expense": "Specs",
+      "Amount": "1399",
+      "id": 4
+    },
+    {
+      "date": "2023-02-03",
+      "Expense": "Netflix",
+      "Amount": "299",
+      "id": 6
+    },
+    {
+      "date": "2023-07-12",
+      "Expense": "prime video",
+      "Amount": "1799",
+      "id": 7
+    },
+    {
+      "date": "2023-08-12",
+      "Expense": "Cat Food",
+      "Amount": "399",
+      "id": 8
+    },
+    {
+      "date": "2023-07-13",
+      "Expense": "Udemy ",
+      "Amount": "495",
+      "id": 9
+    }
+  ],
+  "category": [
+    {
+      "cate": "Food",
+      "image": "https://cdn-icons-png.flaticon.com/256/6534/6534001.png",
+      "id": 1,
+      "allExpense": [
+        {
+          "date": "2023-01-05",
+          "Expense": "Burger king",
+          "Amount": "1500",
+          "id": 1
+        }
+      ]
+    },
+    {
+      "cate": "Entertainment",
+      "image": "https://cdn-icons-png.flaticon.com/256/5537/5537046.png",
+      "allExpense": [
+        {
+          "date": "2023-02-03",
+          "Expense": "Netflix",
+          "Amount": "299",
+          "id": 6
+        },
+        {
+          "date": "2023-07-12",
+          "Expense": "prime video",
+          "Amount": "1799",
+          "id": 7
+        }
+      ],
+      "id": 2
+    },
+    {
+      "cate": "Education",
+      "image": "https://images.vexels.com/media/users/3/166424/isolated/lists/9068d42fc762f2d9915a4dd75cfbbcec-male-graduate-avatar-icon.png",
+      "allExpense": [
+        {
+          "date": "2023-07-13",
+          "Expense": "Udemy ",
+          "Amount": "495",
+          "id": 9
+        }
+      ],
+      "id": 3
+    },
+    {
+      "cate": "Pet",
+      "image": "https://cdn-icons-png.flaticon.com/256/7164/7164423.png",
+      "allExpense": [
+        {
+          "date": "2023-08-12",
+          "Expense": "Cat Food",
+          "Amount": "399",
+          "id": 8
+        }
+      ],
+      "id": 4
+    }
+  ]
+}
