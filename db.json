@@ -1,103 +1,131 @@
 {
-  "totalIncome": {
-    "income": "150000"
-  },
-  "totalExpense": [
+  "totalIncome": [
     {
       "date": "2023-01-05",
-      "Expense": "Burger king",
-      "Amount": "550",
-      "id": 1
+      "Income": "Salary",
+      "Amount": "14000",
+      "id": 2
     },
     {
-      "date": "2023-08-03",
-      "Expense": "Specs",
-      "Amount": "1399",
+      "date": "2023-02-11",
+      "Income": "Part-time",
+      "Amount": "1000",
+      "id": 3
+    },
+    {
+      "date": "2023-03-03",
+      "Income": "Salary",
+      "Amount": "15000",
       "id": 4
-    },
+    }
+  ],
+  "totalExpense": [
     {
-      "date": "2023-02-03",
-      "Expense": "Netflix",
-      "Amount": "299",
-      "id": 6
-    },
-    {
-      "date": "2023-07-12",
-      "Expense": "prime video",
-      "Amount": "1799",
-      "id": 7
-    },
-    {
-      "date": "2023-08-12",
-      "Expense": "Cat Food",
-      "Amount": "399",
+      "date": "2023-03-03",
+      "Expense": "Burger king",
+      "Amount": "1500",
       "id": 8
     },
     {
-      "date": "2023-07-13",
-      "Expense": "Udemy ",
-      "Amount": "495",
+      "date": "2023-03-04",
+      "Expense": "Netflix",
+      "Amount": "299",
       "id": 9
+    },
+    {
+      "date": "2023-04-05",
+      "Expense": "Netflix",
+      "Amount": "299",
+      "id": 10
+    },
+    {
+      "date": "2023-05-03",
+      "Expense": "Mom's Birthday",
+      "Amount": "2500",
+      "id": 11
+    },
+    {
+      "date": "2023-06-08",
+      "Expense": "Umbrella",
+      "Amount": "499",
+      "id": 12
+    },
+    {
+      "date": "2023-06-12",
+      "Expense": "Starbucks",
+      "Amount": "2500",
+      "id": 13
+    },
+    {
+      "date": "2023-07-11",
+      "Expense": "Electricity",
+      "Amount": "1000",
+      "id": 14
+    },
+    {
+      "date": "2023-06-10",
+      "Expense": "Electricity",
+      "Amount": "2000",
+      "id": 15
     }
   ],
   "category": [
     {
       "cate": "Food",
       "image": "https://cdn-icons-png.flaticon.com/256/6534/6534001.png",
-      "id": 1,
       "allExpense": [
         {
-          "date": "2023-01-05",
+          "date": "2023-03-03",
           "Expense": "Burger king",
           "Amount": "1500",
-          "id": 1
-        }
-      ]
-    },
-    {
-      "cate": "Entertainment",
-      "image": "https://cdn-icons-png.flaticon.com/256/5537/5537046.png",
-      "allExpense": [
-        {
-          "date": "2023-02-03",
-          "Expense": "Netflix",
-          "Amount": "299",
-          "id": 6
-        },
-        {
-          "date": "2023-07-12",
-          "Expense": "prime video",
-          "Amount": "1799",
-          "id": 7
+          "id": 8
         }
       ],
+      "id": 1
+    },
+    {
+      "cate": "Transportation",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaWEOCGH4JUXtRqGGHKdYjUbBPQ4Ba2nTfOiwzuZg&s",
+      "allExpense": [],
       "id": 2
     },
     {
-      "cate": "Education",
-      "image": "https://images.vexels.com/media/users/3/166424/isolated/lists/9068d42fc762f2d9915a4dd75cfbbcec-male-graduate-avatar-icon.png",
+      "cate": "Entertainment",
+      "image": "https://static8.depositphotos.com/1052036/857/v/450/depositphotos_8570412-stock-illustration-entertainmaent-folder.jpg",
       "allExpense": [
         {
-          "date": "2023-07-13",
-          "Expense": "Udemy ",
-          "Amount": "495",
-          "id": 9
+          "date": "2023-04-05",
+          "Expense": "Netflix",
+          "Amount": "299",
+          "id": 10
         }
       ],
       "id": 3
     },
     {
-      "cate": "Pet",
-      "image": "https://cdn-icons-png.flaticon.com/256/7164/7164423.png",
+      "cate": "Education",
+      "image": "https://img.freepik.com/premium-vector/3d-graduation-cap-stack-books_169241-7115.jpg",
+      "allExpense": [],
+      "id": 4
+    },
+    {
+      "cate": "Utilities",
+      "image": "https://cdn1.vectorstock.com/i/1000x1000/58/95/set-4-utilities-icons-symbols-power-water-vector-25235895.jpg",
       "allExpense": [
         {
-          "date": "2023-08-12",
-          "Expense": "Cat Food",
-          "Amount": "399",
-          "id": 8
+          "date": "2023-07-11",
+          "Expense": "Electricity",
+          "Amount": "1000",
+          "id": 14
+        },
+        {
+          "date": "2023-06-10",
+          "Expense": "Electricity",
+          "Amount": "2000",
+          "id": 15
         }
       ],
-      "id": 4
+      "id": 5
     }
   ]
 }
